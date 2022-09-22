@@ -36,7 +36,7 @@ do
     swapped=0
     for(( j = 0; j < size - i - 1; j++))
     do
-        if((array[j] < array[j+1]))
+        if((array[j] > array[j+1]))
         then
             temp=${array[j]}
             array[j]=${array[j+1]}
@@ -50,5 +50,5 @@ do
     fi
 done
 
-echo "Results sorted in descending order: "
+echo "Results sorted in ascending order: "
 echo ${array[@]}
