@@ -5,4 +5,5 @@ echo "Three numbers are: $a $b $c"
 
 echo "First Compute : a + b * c = $(( a + b * c ))"
 echo "Second Compute : a * b + c = $(( a * b + c ))"
-echo "Third Compute :c + a / b = $(( c + a / b ))"
+echo "Third Compute : c + a / b = $(( c + a / b ))"
+echo "Fourth Compute : a % b + c = $(( a % b + c ))"
